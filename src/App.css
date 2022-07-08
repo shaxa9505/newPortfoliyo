@@ -1,0 +1,500 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p{
+  margin: 0;
+}
+
+/* ============ HEADER START ============ */
+
+header {
+  width: 100%;
+  height: 720px;
+  background: url("./components/images/background.jpeg") no-repeat center center / cover;
+  padding: 30px 0;
+  font-family: 'Radio Canada', sans-serif;
+}
+header nav ul li{
+  margin-right: 15px;
+}
+header nav ul li a{
+  color: white;
+  font-size: 18px;
+  transition: 500ms;
+  text-decoration: none;
+}
+header nav ul li a:hover{
+  color: #439a00;
+}
+header .mar_top{
+  margin-top: 190px;
+}
+header p{
+  margin: 0;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  color: white;
+}
+header h1{
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 5px;
+  color: white;
+}
+header span{
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+
+header .header_top{
+  position: fixed;
+  width: 100%;
+  margin: auto;
+  background: #00000082;
+  padding: 10px 0;
+}
+
+/* ============ HEADER END ============ */
+
+
+
+/* ============ MAIN START ============ */
+
+main {
+  font-family: 'Radio Canada', sans-serif;
+}
+main h2{
+  margin: 0;
+  text-align: center;
+  margin-top: 15px;
+  font-size: 25px;
+  margin-bottom: 100px;
+}
+main .skills{
+  width: 100%;
+  height: 200px;
+}
+main p{
+  color: black;
+  font-size: 22px;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin: 0;
+}
+main .mar_bot{
+  margin-bottom: 120px;
+}
+
+/* ============ MAIN END ============ */
+
+
+
+/* ============ class MAIN START ============ */
+
+.main{
+  background: #222;
+  padding-top: 10px;
+  margin-top: 50px;
+  font-family: 'Radio Canada', sans-serif;
+}
+.main h2{
+  margin: 0;
+  color: white;
+  font-size: 25px;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 100px;
+}
+.main .cadr{
+  background: #444;
+  border-radius: 15px;
+  margin-bottom: 100px;
+}
+.main .cadr .box{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transform: scale(0.9);
+  transition: all 0.3s ease;
+  height: 320px;
+}
+.main .cadr .box .text{
+  font-size: 28px;
+  font-weight: 500;
+  margin: 15px 0;
+  color: white;
+}
+.main .cadr .box .fa{
+  color: #ededed;
+  transition: all 0.3s ease;
+  font-size: 100px;
+}
+.main .cadr:hover .box .fa{
+  color: lightseagreen;
+}
+.main .cadr .box p{
+  font-size: 17px;
+  color: white;
+}
+.main .cadr:hover .box{
+  transform: scale(1);
+  background: linear-gradient(to top, lightseagreen, black);
+  border-radius: 15px;
+}
+
+/* ============ class MAIN END ============ */
+
+
+/* ============ SECTION START ============ */
+
+section {
+  padding-bottom: 50px;
+  font-family: 'Radio Canada', sans-serif;
+}
+section h2{
+  margin: 0;
+  color: black;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 100px;
+}
+section .blok{
+  overflow: hidden;
+  height: 300px;
+}
+section .blok .image{
+  width: 100%;
+  height: 300px;
+  border-radius: 10px;
+}
+section .blok .box{
+  background: linear-gradient(to bottom, lightseagreen, black);   
+  text-align: center;
+  height: 160px;
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  transform: translateY(0);
+  transition: 1s;
+}
+section .blok .box p{
+  color: white;
+  font-size: 30px;
+  margin: 0;
+  margin-bottom: 50px;
+}
+section .blok .box a{
+  padding: 12px 10px;
+  background: lightseagreen;
+  color: black;
+  text-decoration: none;
+  border-radius: 10px;
+  border: 1px solid black;
+  transition: 500ms;
+  font-size: 20px;
+}
+section .blok .box a:hover{
+  background: black;
+  color: lightseagreen;
+  border: 1px solid lightseagreen
+}
+section .blok:hover .box{
+  transform: translateY(-160px);
+}
+
+/* ============ SECTION END ============ */
+
+
+/* ============ MENU START ============ */
+
+menu {
+  background: #222;
+  padding-top: 15px;
+  padding-bottom: 80px;
+  font-family: 'Radio Canada', sans-serif;
+}
+menu h2{
+  margin: 0;
+  color: white;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 80px;
+}
+menu p{
+  color: white;
+  text-align: center;
+  max-width: 480px;
+  margin: auto;
+  font-size: 17px;
+}
+
+/* ============ MENU END ============ */
+
+
+/* ============ FOOTER START ============ */
+
+footer{
+  width: 100%;
+  background: #fff;
+  height: 100%;
+  color: #333;
+  padding-top: 20px;
+  font-family: 'Radio Canada', sans-serif;
+}
+footer h2{
+  margin: 0;
+  color: black;
+  text-align: center;
+  font-size: 25px;
+  margin-bottom: 80px;
+}
+footer .block{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+footer .block .icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+footer .block .icon .fa{
+  color: lightseagreen;
+  font-size: 30px;
+}
+footer .block .icon .user{
+  color: #333;
+  font-size: 21px;
+  margin: 0;
+  margin-left: 30px;
+}
+footer .block_2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+footer .block_2 .input_1{
+  width: 100%;
+  padding: 8px 8px;
+  font-size: 20px;
+  outline: none;
+  border: none;
+  border: 2px solid #ededed;
+  border-radius: 15px;
+  box-shadow: 0 5px 25px rgba(1 1 1 /15%);
+}
+footer .block_2 .input_2{
+  width: 100%;
+  padding: 8px 8px;
+  font-size: 20px;
+  outline: none;
+  margin-top: 10px;
+  border: none;
+  border: 2px solid #ededed;
+  border-radius: 15px;
+  box-shadow: 0 5px 25px rgba(1 1 1 /15%);
+}
+footer .block_2 .tex{
+  width: 100%;
+  height: 130px;
+  padding: 8px 8px;
+  font-size: 20px;
+  outline: none;
+  margin-top: 10px;
+  resize: none;
+  border: 2px solid #ededed;
+  border-radius: 15px;
+  box-shadow: 0 5px 25px rgba(1 1 1 /15%);
+}
+footer .block_2 button{
+  width: 100%;
+  padding: 10px 10px;
+  background: lightseagreen;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+  margin-top: 15px;
+  font-size: 25px;
+  font-weight: 500;
+  border: 2px solid #fff;
+  transition: all 0.4s ease;
+}
+footer .block_2 button:hover{
+  color: #333;
+  background: transparent;
+  border: 2px solid lightseagreen;
+}
+footer .foot_bot{
+  text-align: center;
+  margin: 0;
+  margin-top: 100px;
+  background: #101;
+  color: rgb(228, 217, 217);
+}
+footer span{
+  display: block;
+  text-align: center;
+  background: #101;
+  color: white;
+}
+
+/* ============ FOOTER END ============ */
+
+
+
+
+/* ============ MEDIA START ============ */
+
+
+
+/* ========== max-width: 991px ========== */
+
+@media (max-width: 991px) {
+  header nav ul li a{
+      font-size: 16px;
+  }
+  menu p{
+      font-size: 16px;
+  }
+  .main .cadr .box .fa{
+      font-size: 70px;
+  }
+  .main .cadr .box .text{
+      font-size: 17px;
+  }
+  .main .cadr .box p{
+      font-size: 13px;
+  }
+  main .skills{
+      height: 160px;
+  }
+  section .blok{
+      height: 220px;
+  }
+  section .blok .image{
+      height: 220px;
+  }
+  section .blok:hover .box {
+      transform: translateY(-115px);
+  }
+  section .blok .box{
+      padding-top: 7px;
+      height: 118px;
+  }
+  section .blok .box p{
+      margin-bottom: 26px;
+      font-size: 25px;
+  }
+  section .blok .box a{
+      font-size: 16px;
+  }
+  footer .block .icon .fa{
+      font-size: 26px;
+  }
+  footer .block .icon .user{
+      font-size: 16px;
+  }
+  footer .block_2 .input_1,
+  footer .block_2 .input_2{
+      font-size: 16px;
+  }
+  footer .block_2 .tex {
+      font-size: 16px;
+  }
+  footer .block_2 button{
+      font-size: 18px;
+  }
+}
+
+/* ========== max-width: 767px ========== */
+
+@media (max-width: 767px) {
+  header .nav{
+      background: #ebece7c2;
+  }
+  header .nav .fa{
+      text-align: center;
+      display: block;
+      font-size: 45px;
+  }
+  header .nav ul {
+      padding-left: 0;
+  }
+  header .nav ul li{
+      margin-bottom: 10px;
+      text-align: center;
+      margin-right: 0;
+  }
+  header .nav ul li a{
+      color: black;
+      transition: 500ms;
+      font-size: 20px;
+  }
+  header .nav ul li a:hover{
+      color: #439a00;
+  }
+  main .mr_bot{
+      margin-bottom: 0;
+  }
+  .main .cadr{
+      margin-bottom: 50px;
+  }
+  .main .cadr .box .fa {
+      font-size: 120px;
+  }
+  .main .cadr .box .text {
+      font-size: 25px;
+  }
+  .main .cadr .box p {
+      font-size: 17px;
+  }
+}
+
+/* ========== max-width: 576px ========== */
+
+@media (max-width: 575px) {
+  header h1{
+      font-size: 34px;
+  }
+  main .skills {
+      height: 160px;
+  }
+  main .mar_bot {
+      margin-bottom: 55px;
+  }
+  main .mr_bot{
+      margin-bottom: 55px;
+  }
+  menu p {
+      font-size: 12px;
+  }
+  .main .cadr .box .fa{
+      font-size: 95px;
+  }
+  .main .cadr .box .text {
+      font-size: 21px;
+  }
+  .main .cadr .box p {
+      font-size: 15px;
+  }
+  footer .block .icon .user{
+      margin-left: 14px;
+  }
+
+}
+
+
+
+/* ============ MEDIA END ============ */
